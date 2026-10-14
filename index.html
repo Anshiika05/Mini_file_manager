@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini_file Manager</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  
+
+  <form class="main fileform">
+
+    <h1>Create File</h1>
+
+
+    <fieldset>
+      <legend>File_Name</legend>
+
+      <input type="text" id="filename" name="filename" required>
+
+    </fieldset>
+
+
+    
+    <fieldset class="content">
+      <legend>Content</legend>
+
+
+
+      <textarea id="content" name="content" rows="3" cols="55"></textarea>
+
+    </fieldset>
+
+
+    <div class="Info">
+
+      <label for="">Data</label>
+      <div class="info_storage">
+      </div>
+    </div>
+
+
+
+    <!-- Submit -->
+
+    <div class="submit-Cont">
+
+       <button class="s-btn" type="submit">
+      Submit
+    </button>
+
+       <button class="r-btn" type="reset">
+       Reset
+       </button>
+    </div>
+
+    <p class="message" role="status" aria-live="polite"></p>
+  </form>
+  <script src="Script.js"></script>
+</body>
+</html>
